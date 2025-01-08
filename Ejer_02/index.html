@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DWEC - Encuentra tu receta!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="contenedor-comida">
+    <header class="search">
+      <h2 class="title">Encuentra recetas para tus ingredientes</h2>
+      <blockquote>Real food doesn't have ingredients, real food is ingredients.
+        <cite>- Jamie Oliver</cite>
+      </blockquote>
+      <div class="search-box">
+        <input type="text" class="search-control" placeholder="Busqueda de ingrediente" id="search-input">
+        <button type="submit" class="search-btn btn" id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </header>
+    <main class="result">
+      <h2 class="title">Resultados de tu busqueda:</h2>
+      <section id="meal">
+        <!-- receta -->
+        <article class="meal-item">
+          <picture class="meal-img">
+            <img src="food.jpg" alt="food">
+          </picture>
+          <div class="meal-name">
+            <h3>Patatas fritas</h3>
+            <a href="#" class="recipe-btn">Obtener receta</a>
+          </div>
+        </article>
+        <!-- final receta -->
+        <!-- receta -->
+        <article class="meal-item">
+          <picture class="meal-img">
+            <img src="food.jpg" alt="food">
+          </picture>
+          <div class="meal-name">
+            <h3>Patatas fritas</h3>
+            <a href="#" class="recipe-btn">Obtener receta</a>
+          </div>
+        </article>
+        <!-- final receta -->
+      </section>
+    </main>
+    <main class="meal-details">
+      <!-- cerrar receta btn -->
+      <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+      <!-- meal content -->
+      <secction class="meal-details-content">
+        <h2 class="recipe-title">Meals Name Here</h2>
+        <p class="recipe-category">Category Name</p>
+        <article class="recipe-instruct">
+          <h3>Instructions:</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro,
+            reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit
+            autem iste!</p>
+        </article>
+        <picture class="recipe-meal-img">
+          <img src="food.jpg" alt="">
+        </picture>
+      </secction>
+    </main>
+  </div>
+</body>
+
+</html>

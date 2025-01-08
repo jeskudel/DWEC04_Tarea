@@ -1,0 +1,161 @@
+@import url('https://fonts.cdnfonts.com/css/saiyan-sans');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000, #FF4500);
+    color: #FFF;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #000;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.character {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* margin-bottom: 30px; */
+}
+
+.character-card {
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 25%;
+    box-shadow: 5px 5px 15px #000;
+}
+
+.character-card h2 {
+    font-family: 'Saiyan Sans', sans-serif;
+    font-size: 3em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #FFD700;
+    text-shadow: 3px 3px 5px #FF0000, 0 0 10px #FF4500;
+}
+
+.character-card img {
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    max-height: 400px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.5s ease;
+}
+
+.character-card img:hover {
+    transform: scale(1.3)
+}
+
+.character-card ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.character-card ul li {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.comparison {
+    /* display: none; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid #FFD700;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: 5px 5px 15px #000;
+}
+
+.comparison h2 {
+    font-size: 3em;
+    /* font-weight: bold; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.comparison p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Saiyan Sans', sans-serif; 
+    color: #FFD700;
+    text-shadow: 3px 3px 5px #FF0000, 0 0 10px #FF4500;
+    font-size: 3em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.versus{
+    width: 256px; 
+    height: 600px; 
+    background-image: url("img/00_versus.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0.5em 0.4em;
+    display: inline-block;
+}
+
+.boton{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button-dragon-ball {
+    width: 300px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #ffffff; 
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: 2px solid #FFD700;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 1px; 
+}
+
+.button-dragon-ball:hover {
+    background: linear-gradient(90deg, #FF9900, #FF6600); 
+    box-shadow: 5px 5px 15px #000;
+    transform: scale(1.05); 
+}
+
+.button-dragon-ball:active {
+    background: linear-gradient(90deg, #FF6600, #FF9900); 
+    box-shadow: 0 2px 4px #000;
+    transform: scale(0.95); 
+}
